@@ -1,0 +1,83 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Hi there", "Greetings"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! How can I help?", "Good day! How can I assist you?"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later", "Take care", "Thanks, bye"],
+            "responses": ["Goodbye! Have a great day!", "Take care and have a good day!", "See you later!"],
+            "context_set": ""
+        },
+        {
+            "tag": "hours",
+            "patterns": ["What are your hours?", "When are you open?", "What time do you close?"],
+            "responses": ["Our hours are Monday to Friday from 9am to 5pm."],
+            "context_set": ""
+        },
+        {
+            "tag": "balance",
+            "patterns": ["What is my account balance?", "How much money do I have?", "What's my balance?"],
+            "responses": ["Your current account balance is $234,075.26"],
+            "context_set": ""
+        },
+        {
+			"tag": "transactions",
+			"patterns": ["Can you show me my recent transactions?", "What are my latest transactions?", "I need to see my transaction history."],
+			"responses": ["Sure, here are your last 5 transactions:",
+						  "- Transfer to John Doe for $1,200",
+						  "- Purchase from Walmart for $75",
+						  "- ATM withdrawal for $904",
+						  "- Deposit of $28,000 on January 12th 2023",
+						  "- Bill payment to Netflix for $9.99 on January 2nd 2023",
+						  "\nIf you need more information about a specific transaction, please let me know."],
+			"context_set": ""
+		},
+        {
+            "tag": "credit",
+            "patterns": ["What is my available credit?", "What is my credit limit?", "How much credit do I have?"],
+            "responses": ["Your available credit is $X out of a total credit limit of $Y."],
+            "context_set": ""
+        },
+        {
+            "tag": "payment_date",
+            "patterns": ["When is my next payment due?", "What's my payment due date?", "When do I need to make a payment?"],
+            "responses": ["Your next payment is due on December 14th 2023."],
+            "context_set": ""
+        },
+        {
+            "tag": "pay_bill",
+            "patterns": ["How can I pay my bill?", "What's the best way to make a payment?", "Can I pay my bill online?"],
+            "responses": ["You can pay your bill by Visa, Mastercard, Paypal or Crypto."],
+            "context_set": ""
+        },
+        {
+            "tag": "activate_card",
+            "patterns": ["How do I activate my new card?", "What's the process for activating my card?", "Can I activate my card online?"],
+            "responses": ["To activate your card, please call 583-777-0020 or log in to your online banking."],
+            "context_set": ""
+        },
+        {
+            "tag": "lock_cancel_card",
+            "patterns": ["Can I lock or cancel my card?", "How do I report a lost or stolen card?", "What should I do if my card is stolen?"],
+            "responses": ["To lock or cancel your card, please send the last 4 digits of your SS, address, and mother's maiden name."],
+            "context_set": ""
+        },
+        {
+            "tag": "account_number",
+            "patterns": ["What is my account number?", "Where can I find my account number?", "I need to know my account number."],
+            "responses": ["Your account number is 564732290855. If you need further assistance, please don't hesitate to ask!"],
+			"context_set": ""
+		},
+		{
+		"tag": "stock_portfolio",
+		"patterns": ["What stocks do I own?", "Can you show me my stock portfolio?", "How are my stocks performing?", "How are my shares?"],
+		"responses": ["Here are the stocks in your portfolio: AAPL, NVDA, AMZN. To see how they are performing, please visit our online trading platform or contact a financial advisor."],
+		"context_set": ""
+		}
+
+				]
+}
